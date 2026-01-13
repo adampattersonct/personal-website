@@ -24,16 +24,22 @@ export async function scrapeScholarMetrics(
 
     // Extract metrics using page.evaluate()
     const metrics = await page.evaluate(() => {
-      const getText = (selector: string) => {
-        const el = document.querySelector(selector)
-        return el?.textContent?.trim() || '0'
+      // Get all table cells from the metrics table
+      const table = document.querySelector('#gsc_rsb_st')
+      if (!table) {
+        return { citations: 0, hIndex: 0, i10Index: 0 }
       }
 
-      // Google Scholar profile metrics selectors
+      const cells = Array.from(table.querySelectorAll('td')).map(td => td.textContent?.trim() || '0')
+
+      // Table structure: [label, allTime, since2019, label, allTime, since2019, ...]
+      // Index 1: Citations (all time), Index 4: h-index (all time), Index 7: i10-index (all time)
+      const parseNumber = (str: string) => parseInt(str.replace(/,/g, '')) || 0
+
       return {
-        citations: parseInt(getText('#gsc_rsb_st table tr:nth-child(1) td:nth-child(2)').replace(/,/g, '')),
-        hIndex: parseInt(getText('#gsc_rsb_st table tr:nth-child(2) td:nth-child(2)')),
-        i10Index: parseInt(getText('#gsc_rsb_st table tr:nth-child(3) td:nth-child(2)'))
+        citations: parseNumber(cells[1] || '0'),
+        hIndex: parseNumber(cells[4] || '0'),
+        i10Index: parseNumber(cells[7] || '0')
       }
     })
 
