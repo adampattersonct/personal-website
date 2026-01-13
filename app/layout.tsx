@@ -17,10 +17,10 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Adam Patterson - Academic Profile",
+  title: "Adam L Patterson - Academic Profile",
   description: "Academic portfolio showcasing research, publications, and credentials for PhD applications.",
   openGraph: {
-    title: "Adam Patterson - Academic Profile",
+    title: "Adam L Patterson - Academic Profile",
     description: "Academic portfolio showcasing research, publications, and credentials for PhD applications.",
     type: "website",
   },
