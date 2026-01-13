@@ -39,3 +39,22 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude Code
+.claude/
+*.claude.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Puppeteer
+.cache/
+.local-chromium/
+
+# OS
+.DS_Store
+Thumbs.db
