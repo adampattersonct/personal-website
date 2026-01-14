@@ -40,7 +40,7 @@ export default function ProfileHeader() {
           </div>
         </div>
 
-        <div className="profile-info text-center md:text-left flex-1">
+        <div className="profile-info text-center flex-1">
           <h1 className="font-merriweather text-4xl font-bold mb-2">
             {PROFILE_DATA.name}
           </h1>
@@ -52,7 +52,7 @@ export default function ProfileHeader() {
           </a>
           <p className="text-xl text-gray-600 mb-6">{PROFILE_DATA.title}</p>
 
-          <div className="flex flex-wrap gap-3 justify-center md:justify-start">
+          <div className="flex flex-wrap gap-3 justify-center">
             <a
               href={RESUME_PATH}
               target="_blank"
