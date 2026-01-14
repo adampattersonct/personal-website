@@ -1,16 +1,35 @@
-import puppeteer from 'puppeteer-extra'
-import StealthPlugin from 'puppeteer-extra-plugin-stealth'
 import { ScholarMetrics } from './types'
-
-puppeteer.use(StealthPlugin())
 
 export async function scrapeScholarMetrics(
   scholarUrl: string
 ): Promise<ScholarMetrics> {
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
-  })
+  const isProduction = process.env.VERCEL === '1'
+
+  let browser
+
+  if (isProduction) {
+    // Use chromium for Vercel serverless
+    const chromium = await import('@sparticuz/chromium')
+    const puppeteerCore = await import('puppeteer-core')
+
+    browser = await puppeteerCore.default.launch({
+      args: chromium.default.args,
+      defaultViewport: chromium.default.defaultViewport,
+      executablePath: await chromium.default.executablePath(),
+      headless: chromium.default.headless,
+    })
+  } else {
+    // Use regular puppeteer for local development
+    const puppeteer = await import('puppeteer-extra')
+    const StealthPlugin = (await import('puppeteer-extra-plugin-stealth')).default
+
+    puppeteer.default.use(StealthPlugin())
+
+    browser = await puppeteer.default.launch({
+      headless: true,
+      args: ['--no-sandbox', '--disable-setuid-sandbox']
+    })
+  }
 
   try {
     const page = await browser.newPage()
