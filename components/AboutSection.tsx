@@ -7,8 +7,7 @@ export default function AboutSection() {
       <div className="prose prose-lg max-w-none">
         <p className="text-gray-700 mb-4">{PROFILE_DATA.bio}</p>
         <p className="text-gray-700">
-          Please explore my research metrics above, view my resume, or connect
-          with me through the provided links.
+          Please explore my CV, Google Scholar, or LinkedIn above. The best way to contact me is through the linked email address above or sending a message on LinkedIn.
         </p>
       </div>
     </section>
