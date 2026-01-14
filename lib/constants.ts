@@ -1,5 +1,6 @@
 export const SCHOLAR_URL = 'https://scholar.google.com/citations?user=30sUYGgAAAAJ&hl=en'
 export const LINKEDIN_URL = 'https://www.linkedin.com/in/adamlpatterson/'
+export const GITHUB_URL = 'https://github.com/adampattersonct'
 export const RESUME_PATH = '/resume.pdf'
 
 export const PROFILE_DATA = {
