@@ -10,14 +10,14 @@ export default function ProfileHeader() {
   return (
     <header className="profile-header mb-12">
       <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
-        <div className="profile-image w-32 h-32 flex-shrink-0">
-          <div className="w-full h-full rounded-full overflow-hidden bg-gray-200 flex items-center justify-center">
+        <div className="profile-image w-40 h-52 flex-shrink-0">
+          <div className="w-full h-full rounded-lg overflow-hidden bg-gray-200 flex items-center justify-center">
             {!imgError ? (
               <Image
                 src="/profile.jpg"
                 alt={PROFILE_DATA.name}
-                width={128}
-                height={128}
+                width={160}
+                height={208}
                 className="object-cover w-full h-full"
                 onError={() => setImgError(true)}
               />
@@ -44,6 +44,12 @@ export default function ProfileHeader() {
           <h1 className="font-merriweather text-4xl font-bold mb-2">
             {PROFILE_DATA.name}
           </h1>
+          <a
+            href="mailto:adamlpattersoni@gmail.com"
+            className="text-blue-600 hover:text-blue-800 hover:underline inline-block mb-2"
+          >
+            adamlpattersoni@gmail.com
+          </a>
           <p className="text-xl text-gray-600 mb-6">{PROFILE_DATA.title}</p>
 
           <div className="flex flex-wrap gap-3 justify-center md:justify-start">
