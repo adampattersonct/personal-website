@@ -5,6 +5,6 @@ export const RESUME_PATH = '/resume.pdf'
 
 export const PROFILE_DATA = {
   name: 'Adam L Patterson',
-  title: 'Economist and Data Scientist',
-  bio: 'I am an Economist Apprentice at Amazon and a Research Technician at the University of Connecticut. My work lives at the intersection of causal inference and machine learning, where I focus on building end-to-end automated models that translate complex data into actionable policy and business insights. Currently, I am bridging the gap between academic research and industry application, leveraging Python, SQL, and AWS to solve high-stakes problems. I am actively seeking doctoral opportunities and collaborative research roles that push the boundaries of applied economics.',
+  title: 'Economist and Data Science Engineer',
+  bio: 'I operate at the intersection of causal inference and machine learning, where I build end-to-end automated models that turn complex data into actionable policy and business insights. Currently, as an Economist Apprentice at Amazon and a Research Technician at UConn, I specialize in bridging the gap between academic rigor and industrial scale, developing at pace. I leverage Python, Gen AI, SQL, and AWS to solve complex problems through a blend of engineering and statistical precision, always with an eye toward outsized business impact.',
 }
