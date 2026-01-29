@@ -4,7 +4,7 @@ const publications = [
     url: 'https://iacis.org/iis/2025/2_iis_2025_96-108.pdf',
   },
   {
-    title: 'Examining generative artificial intelligence adoption in academia: a UTAUT perspective',
+    title: 'Examining Generative Artificial Intelligence Adoption in Academia: a UTAUT perspective',
     url: 'https://iacis.org/iis/2024/3_iis_2024_238-251.pdf',
   },
 ]
