@@ -2,6 +2,7 @@ import { Suspense } from 'react'
 import ProfileHeader from '@/components/ProfileHeader'
 import MetricsDisplay from '@/components/MetricsDisplay'
 import AboutSection from '@/components/AboutSection'
+import PublicationsSection from '@/components/PublicationsSection'
 import Footer from '@/components/Footer'
 
 function MetricsLoadingSkeleton() {
@@ -30,6 +31,8 @@ export default function Home() {
       </Suspense>
 
       <AboutSection />
+
+      <PublicationsSection />
 
       <Footer />
     </main>
