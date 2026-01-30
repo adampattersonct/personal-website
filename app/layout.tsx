@@ -17,11 +17,11 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Adam L Patterson - Personal Website",
-  description: "Personal website showcasing research, publications, and professional experience.",
+  title: "Adam L Patterson - Economist and Data Science Engineer",
+  description: "Personal website showcasing code, publications, and professional experience.",
   openGraph: {
-    title: "Adam L Patterson - Personal Website",
-    description: "Personal website showcasing research, publications, and professional experience.",
+    title: "Adam L Patterson - Economist and Data Science Engineer",
+    description: "Personal website showcasing code, publications, and professional experience.",
     type: "website",
   },
 };
