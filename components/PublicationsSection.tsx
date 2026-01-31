@@ -104,7 +104,7 @@ const publications = [
 export default function PublicationsSection() {
   return (
     <section className="mb-12">
-      <h2 className="text-2xl font-bold mb-6">Publications</h2>
+      <h2 className="text-2xl font-bold mb-6 text-center">Publications</h2>
       <ol className="space-y-4">
         {publications.map((pub, index) => (
           <li key={index} className="pl-4 border-l-2 border-blue-200 hover:border-blue-500 transition-colors">

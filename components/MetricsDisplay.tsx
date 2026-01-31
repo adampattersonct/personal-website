@@ -35,7 +35,7 @@ export default function MetricsDisplay() {
 
   return (
     <section className="mb-12">
-      <h2 className="text-2xl font-bold mb-6">Research Metrics</h2>
+      <h2 className="text-2xl font-bold mb-6 text-center">Research Metrics</h2>
 
       {loading && (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
