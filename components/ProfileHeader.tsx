@@ -9,7 +9,7 @@ export default function ProfileHeader() {
 
   return (
     <header className="profile-header mb-12">
-      <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
+      <div className="flex flex-col items-center gap-8">
         <div className="profile-image w-40 h-52 flex-shrink-0">
           <div className="w-full h-full rounded-lg overflow-hidden bg-gray-200 flex items-center justify-center">
             {!imgError ? (
