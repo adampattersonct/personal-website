@@ -50,16 +50,6 @@ const publications = [
     url: 'https://iacis.org/iis/2024/3_iis_2024_238-251.pdf',
   },
   {
-    authors: 'Rruplli, E., Frydenberg, M., Patterson, A., Mentzer, K.',
-    year: 2024,
-    title: 'Examining Factors of Student AI Adoption through the Value-based Adoption Model',
-    journal: 'Issues in Information Systems',
-    volume: '25',
-    issue: '3',
-    pages: '218-230',
-    url: 'https://iacis.org/iis/2024/3_iis_2024_218-230.pdf',
-  },
-  {
     authors: 'Patterson, A.',
     year: 2024,
     title: 'Examining Text Consistency amongst FOMC Statements and Minutes Subtext using Deep Learning',
@@ -68,6 +58,16 @@ const publications = [
     issue: '3',
     pages: '252-266',
     url: 'https://iacis.org/iis/2024/3_iis_2024_252-266.pdf',
+  },
+  {
+    authors: 'Rruplli, E., Frydenberg, M., Patterson, A., Mentzer, K.',
+    year: 2024,
+    title: 'Examining Factors of Student AI Adoption through the Value-based Adoption Model',
+    journal: 'Issues in Information Systems',
+    volume: '25',
+    issue: '3',
+    pages: '218-230',
+    url: 'https://iacis.org/iis/2024/3_iis_2024_218-230.pdf',
   },
   {
     authors: 'Mentzer, K., Frydenberg, M., & Patterson, A.',
