@@ -72,7 +72,7 @@ export default function ProfileHeader() {
                 <line x1="12" y1="18" x2="12" y2="12" />
                 <line x1="9" y1="15" x2="15" y2="15" />
               </svg>
-              Resume (1-page)
+              Resume
             </a>
 
             <a
@@ -95,7 +95,7 @@ export default function ProfileHeader() {
                 <line x1="16" y1="17" x2="8" y2="17" />
                 <line x1="10" y1="9" x2="8" y2="9" />
               </svg>
-              CV (Full)
+              CV
             </a>
 
             <a
