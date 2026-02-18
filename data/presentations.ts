@@ -9,9 +9,9 @@ export interface Presentation {
 
 export const presentations: Presentation[] = [
   {
-    authors: 'Discussant,',
+    authors: '',
     year: 2025,
-    title: 'Teaching Economics More Efficiently (and Effectively) with Python',
+    title: 'Discussant; Teaching Economics More Efficiently (and Effectively) with Python',
     conference: 'Southern Economic Association Annual Meeting',
     location: 'Tampa Bay, FL',
     url: '',
