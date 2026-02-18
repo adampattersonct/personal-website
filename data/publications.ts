@@ -31,10 +31,10 @@ export const publications: Publication[] = [
     url: 'https://iacis.org/iis/2025/2_iis_2025_96-108.pdf',
   },
   {
-    authors: 'Zhao, W., Patterson, A., Sentihilkumar C., Wang, Y., Gupta, A., Sadighi, S., Nayyar, N.',
+    authors: 'Zhao, W., Patterson, A., et al.',
     year: 2025,
     title: 'From Metrics to Meaning: Estimating User Feedback Using LLM-Based Evaluation',
-    journal: 'Amazon Science Internal Publication',
+    journal: 'Amazon Science',
     volume: '',
     issue: '',
     pages: '',
