@@ -3,8 +3,6 @@ import ProfileHeader from '@/components/ProfileHeader'
 import MetricsDisplay from '@/components/MetricsDisplay'
 import AboutSection from '@/components/AboutSection'
 import PublicationsSection from '@/components/PublicationsSection'
-import Footer from '@/components/Footer'
-import ThemeToggle from '@/components/ThemeToggle'
 
 function MetricsLoadingSkeleton() {
   return (
@@ -25,7 +23,6 @@ function MetricsLoadingSkeleton() {
 export default function Home() {
   return (
     <main className="container mx-auto px-4 py-8 max-w-4xl min-h-screen">
-      <ThemeToggle />
       <ProfileHeader />
 
       <Suspense fallback={<MetricsLoadingSkeleton />}>
@@ -34,9 +31,7 @@ export default function Home() {
 
       <AboutSection />
 
-      <PublicationsSection />
-
-      <Footer />
+      <PublicationsSection limit={3} showViewAll />
     </main>
   )
 }
