@@ -11,8 +11,8 @@ export default function Footer() {
   }, [])
 
   return (
-    <footer className="border-t border-gray-200 pt-8 mt-12">
-      <p className="text-center text-gray-600 text-sm">
+    <footer className="border-t border-gray-200 dark:border-gray-700 pt-8 mt-12">
+      <p className="text-center text-gray-600 dark:text-gray-400 text-sm">
         &copy; {year || '2026'} {PROFILE_DATA.name}. All rights reserved.
       </p>
     </footer>

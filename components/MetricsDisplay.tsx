@@ -41,15 +41,15 @@ export default function MetricsDisplay() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[1, 2, 3].map(i => (
             <div key={i} className="metric-card animate-pulse">
-              <div className="h-12 bg-gray-200 rounded mb-2"></div>
-              <div className="h-4 bg-gray-200 rounded w-20"></div>
+              <div className="h-12 bg-gray-200 dark:bg-gray-700 rounded mb-2"></div>
+              <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-20"></div>
             </div>
           ))}
         </div>
       )}
 
       {error && (
-        <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-red-700">
+        <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4 text-red-700 dark:text-red-400">
           <p className="font-medium">Error loading metrics</p>
           <p className="text-sm mt-1">{error}</p>
           <button
@@ -65,28 +65,28 @@ export default function MetricsDisplay() {
         <>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="metric-card text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">
+              <div className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">
                 {metrics.citations.toLocaleString()}
               </div>
-              <div className="text-gray-600 font-medium">Citations</div>
+              <div className="text-gray-600 dark:text-gray-400 font-medium">Citations</div>
             </div>
 
             <div className="metric-card text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">
+              <div className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">
                 {metrics.hIndex}
               </div>
-              <div className="text-gray-600 font-medium">h-index</div>
+              <div className="text-gray-600 dark:text-gray-400 font-medium">h-index</div>
             </div>
 
             <div className="metric-card text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">
+              <div className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">
                 {metrics.i10Index}
               </div>
-              <div className="text-gray-600 font-medium">i10-index</div>
+              <div className="text-gray-600 dark:text-gray-400 font-medium">i10-index</div>
             </div>
           </div>
 
-          <p className="text-sm text-gray-500 mt-4 text-center">
+          <p className="text-sm text-gray-500 dark:text-gray-400 mt-4 text-center">
             Data fetched from Google Scholar • Last updated: {formatDate(metrics.lastUpdated)}
           </p>
         </>

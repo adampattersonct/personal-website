@@ -11,7 +11,7 @@ export default function ProfileHeader() {
     <header className="profile-header mb-12">
       <div className="flex flex-col items-center gap-8">
         <div className="profile-image w-40 h-52 flex-shrink-0">
-          <div className="w-full h-full rounded-lg overflow-hidden bg-gray-200 flex items-center justify-center">
+          <div className="w-full h-full rounded-lg overflow-hidden bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
             {!imgError ? (
               <Image
                 src="/profile.jpg"
@@ -23,7 +23,7 @@ export default function ProfileHeader() {
               />
             ) : (
               <svg
-                className="w-16 h-16 text-gray-400"
+                className="w-16 h-16 text-gray-400 dark:text-gray-500"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -46,11 +46,11 @@ export default function ProfileHeader() {
           </h1>
           <a
             href="mailto:adamlpattersoni@gmail.com"
-            className="text-blue-600 hover:text-blue-800 hover:underline inline-block mb-2"
+            className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 hover:underline inline-block mb-2"
           >
             adamlpattersoni@gmail.com
           </a>
-          <p className="text-xl text-gray-600 mb-6">{PROFILE_DATA.title}</p>
+          <p className="text-xl text-gray-600 dark:text-gray-400 mb-6">{PROFILE_DATA.title}</p>
 
           <div className="flex flex-wrap gap-3 justify-center">
             <a

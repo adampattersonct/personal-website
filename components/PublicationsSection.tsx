@@ -107,22 +107,22 @@ export default function PublicationsSection() {
       <h2 className="text-2xl font-bold mb-6 text-center">Publications</h2>
       <ol className="space-y-4">
         {publications.map((pub, index) => (
-          <li key={index} className="pl-4 border-l-2 border-blue-200 hover:border-blue-500 transition-colors">
-            <p className="text-gray-800">
+          <li key={index} className="pl-4 border-l-2 border-blue-200 dark:border-blue-800 hover:border-blue-500 dark:hover:border-blue-400 transition-colors">
+            <p className="text-gray-800 dark:text-gray-200">
               {pub.authors} ({pub.year}).{' '}
               <a
                 href={pub.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800 hover:underline font-medium"
+                className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 hover:underline font-medium"
               >
                 {pub.title}
               </a>
               .{' '}
-              <span className="italic text-gray-600">{pub.journal}</span>
-              {pub.volume && <span className="text-gray-600">, {pub.volume}</span>}
-              {pub.issue && <span className="text-gray-600">({pub.issue})</span>}
-              {pub.pages && <span className="text-gray-600">, {pub.pages}</span>}
+              <span className="italic text-gray-600 dark:text-gray-400">{pub.journal}</span>
+              {pub.volume && <span className="text-gray-600 dark:text-gray-400">, {pub.volume}</span>}
+              {pub.issue && <span className="text-gray-600 dark:text-gray-400">({pub.issue})</span>}
+              {pub.pages && <span className="text-gray-600 dark:text-gray-400">, {pub.pages}</span>}
               .
             </p>
           </li>
