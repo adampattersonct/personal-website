@@ -11,7 +11,7 @@ export default function PublicationsSection({ limit, showViewAll }: Props) {
 
   return (
     <section className="mb-12">
-      <h2 className="text-2xl font-bold mb-6 text-center"> Selected Publications</h2>
+      <h2 className="text-2xl font-bold mb-6 text-center">Publications</h2>
       <ol className="space-y-4">
         {items.map((pub, index) => (
           <li key={index} className="pl-4 border-l-2 border-blue-200 dark:border-blue-800 hover:border-blue-500 dark:hover:border-blue-400 transition-colors">
