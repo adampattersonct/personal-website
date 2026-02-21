@@ -15,7 +15,15 @@ export const presentations: Presentation[] = [
     conference: 'BIG AI at MIT',
     location: 'Cambridge, MA',
     url: '',
-  },  
+  },
+  {
+    authors: '',
+    year: 2026,
+    title: 'Calibrating the Curriculum: In-Demand Skills for Entry-Level Economics Majors',
+    conference: 'American Economic Association: Conference on Teaching and Research in Economic Education',
+    location: 'Las Vegas, NV',
+    url: '',
+  },    
   {
     authors: '',
     year: 2025,
