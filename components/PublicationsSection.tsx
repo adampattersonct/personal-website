@@ -7,6 +7,7 @@ interface Props {
 }
 
 export default function PublicationsSection({ limit, showViewAll }: Props) {
+  const total = publications.length
   const items = limit ? publications.slice(0, limit) : publications
 
   return (
@@ -16,6 +17,7 @@ export default function PublicationsSection({ limit, showViewAll }: Props) {
         {items.map((pub, index) => (
           <li key={index} className="pl-4 border-l-2 border-blue-200 dark:border-blue-800 hover:border-blue-500 dark:hover:border-blue-400 transition-colors">
             <p className="text-gray-800 dark:text-gray-200">
+              <span className="font-semibold text-blue-600 dark:text-blue-400">[{total - index}]</span>{' '}
               {pub.authors} ({pub.year}).{' '}
               {pub.url ? (
                 <a
