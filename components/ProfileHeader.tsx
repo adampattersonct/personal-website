@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import { useState } from 'react'
-import { PROFILE_DATA, RESUME_PATH, RESUME_SHORT_PATH, SCHOLAR_URL, LINKEDIN_URL, GITHUB_URL } from '@/lib/constants'
+import { PROFILE_DATA, RESUME_PATH, CV_PATH, SCHOLAR_URL, LINKEDIN_URL, GITHUB_URL } from '@/lib/constants'
 
 export default function ProfileHeader() {
   const [imgError, setImgError] = useState(false)
@@ -54,7 +54,7 @@ export default function ProfileHeader() {
 
           <div className="flex flex-wrap gap-3 justify-center">
             <a
-              href={RESUME_SHORT_PATH}
+              href={RESUME_PATH}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"
@@ -76,7 +76,7 @@ export default function ProfileHeader() {
             </a>
 
             <a
-              href={RESUME_PATH}
+              href={CV_PATH}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"

@@ -2,7 +2,7 @@ export const SCHOLAR_URL = 'https://scholar.google.com/citations?user=30sUYGgAAA
 export const LINKEDIN_URL = 'https://www.linkedin.com/in/adamlpatterson/'
 export const GITHUB_URL = 'https://github.com/adampattersonct'
 export const RESUME_PATH = '/resume.pdf'
-export const RESUME_SHORT_PATH = '/resume-1.pdf'
+export const CV_PATH = '/cv.pdf'
 
 export const PROFILE_DATA = {
   name: 'Adam L Patterson',
