@@ -16,7 +16,7 @@ export default function PublicationsSection({ limit, showViewAll }: Props) {
       <ol className="space-y-4">
         {items.map((pub, index) => (
           <li key={index} className="flex items-start gap-3">
-            <span className="font-semibold text-blue-600 dark:text-blue-400 shrink-0 pt-0.5">[{total - index}]</span>
+            <span className="font-semibold text-blue-600 dark:text-blue-400 shrink-0 pt-0.5 min-w-[2.5rem] text-right">[{total - index}]</span>
             <div className="pl-4 border-l-2 border-blue-200 dark:border-blue-800 hover:border-blue-500 dark:hover:border-blue-400 transition-colors">
             <p className="text-gray-800 dark:text-gray-200">
               {pub.authors} ({pub.year}).{' '}
