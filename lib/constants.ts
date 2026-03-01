@@ -7,6 +7,7 @@ export const CV_PATH = '/cv.pdf'
 export const PROFILE_DATA = {
   name: 'Adam L Patterson',
   title: 'Economist and Data Science Engineer',
+  tagline: 'Bridging causal inference, machine learning, and policy to understand how emerging technologies reshape economies and institutions.',
   bio: [
     "I operate at the intersection of causal inference and machine learning, engineering end-to-end automated models that turn complex data into actionable policy and business insights.",
     "As an Economist Apprentice at Amazon and a Research Technician at UConn, I specialize in bridging the gap between academic rigor and industrial scale, developing at pace.",

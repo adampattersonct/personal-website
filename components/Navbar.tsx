@@ -6,8 +6,12 @@ import { useState, useEffect } from 'react'
 import ThemeToggle from './ThemeToggle'
 
 const navLinks = [
+  { href: '/about', label: 'About' },
+  { href: '/research', label: 'Research' },
   { href: '/publications', label: 'Publications' },
   { href: '/presentations', label: 'Presentations' },
+  { href: '/teaching', label: 'Teaching' },
+  { href: '/cv', label: 'CV' },
 ]
 
 export default function Navbar() {
