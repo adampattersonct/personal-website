@@ -13,15 +13,15 @@ interface Course {
 const teachingHistory: Course[] = [
   {
     institution: 'University of Connecticut',
-    courses: ['Undergraduate Macroeconomics'],
+    courses: ['ECON 3438: Contemporary Problems in Economics', 'ECON 2447: Economics of Sports', 'ECON 2311Q: Econometrics I', 'ECON 1201: Principles of Microeconomics'],
   },
   {
     institution: 'Bryant University',
-    courses: ['[Placeholder — add course name(s)]'],
+    courses: ['Economics 114: Principles of Macroeconomics'],
   },
   {
     institution: 'Nichols College',
-    courses: ['[Placeholder — add course name(s)]'],
+    courses: ['Data Science 201: Introduction to Data Science', 'Data Science 101: Data and AI Literacy'],
   },
 ]
 
@@ -36,12 +36,18 @@ export default function TeachingPage() {
         <div className="bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 p-6">
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
             {/* PLACEHOLDER — Edit to reflect your teaching philosophy */}
-            I believe economics becomes most meaningful when students can connect theoretical
+            I believe economics becomes most meaningful when students apply theoretical
             frameworks to the world they observe every day. My courses incorporate real-world data
-            visualization, current policy events, and multimedia resources — including CNBC segments
-            and Federal Reserve communications — to bridge the gap between textbook models and lived
+            visualization, current policy events, and multimedia resources, including CNBC segments
+            and Federal Reserve communications, to bridge the gap between textbook models and lived
             economic reality. My goal is for students to leave each class equipped not only with
             analytical tools but with the confidence to apply them independently.
+
+            Furthermore, it is my belief that LLMs and Gen AI tools are fundamentally changing in-demand labor market skills.
+            My approach to teaching Data Science and Economics is to equip students with the critical thinking skills necessary to adapt to this rapidly evolving landscape. 
+            I emphasize the importance of understanding underlying economic principles and data science techniques, while also encouraging students to stay curious and continuously learn new tools and technologies as they emerge.
+            Domain expertise and communication skills will remain essential as Gen AI tools commoditize previous coding skills. These tools should be a powerful complement to their human judgment and creativity, rather than a replacement.
+            It is essential for students to validate each step of their analysis using chain of thought prompting, while critically thinking about the assumptions and limitations of the models and tools they are using.
           </p>
         </div>
       </section>
