@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import type { Metadata } from 'next'
-import { PROFILE_DATA, SCHOLAR_URL, LINKEDIN_URL, GITHUB_URL } from '@/lib/constants'
+import { PROFILE_DATA, LINKEDIN_URL } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'About - Adam L Patterson',
@@ -86,12 +86,42 @@ export default function AboutPage() {
           <div className="bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 p-5">
             <h3 className="font-semibold text-lg mb-1">MS Data Science</h3>
             <p className="text-blue-600 dark:text-blue-400 text-sm mb-1">Central Connecticut State University</p>
-            <p className="text-gray-500 dark:text-gray-400 text-sm">2025</p>
+            <p className="text-gray-500 dark:text-gray-400 text-sm mb-3">2025</p>
+            <div>
+              <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Coursework:</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Predictive Analytics: Estimation and Clustering, Predictive Analytics: Classification,
+                Multivariate Statistics, Text Analytics with Information Retrieval, Text Analytics with Natural Language Processing,
+                Advanced Estimation Methods, Introduction to Data Science
+              </p>
+            </div>
           </div>
           <div className="bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 p-5">
             <h3 className="font-semibold text-lg mb-1">MS Quantitative Economics</h3>
             <p className="text-blue-600 dark:text-blue-400 text-sm mb-1">University of Connecticut</p>
-            <p className="text-gray-500 dark:text-gray-400 text-sm">2020</p>
+            <p className="text-gray-500 dark:text-gray-400 text-sm mb-3">2020</p>
+            <div>
+              <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Coursework:</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Machine Learning for Economists, Applied Econometrics I, Applied Econometrics II, Open-Source Programming
+                with Python, Programming and Computation with R for Economists, Mathematical Economics, Operations Research,
+                Panel Data Econometrics, Consumer Demand Analysis, Microeconomic Theory I (PhD), Advanced Mathematical
+                Economics (PhD), Applied Econometrics I (PhD), Doctoral Dissertation Research
+              </p>
+            </div>
+          </div>
+          <div className="bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 p-5">
+            <h3 className="font-semibold text-lg mb-1">BA Economics</h3>
+            <p className="text-blue-600 dark:text-blue-400 text-sm mb-1">University of Connecticut</p>
+            <p className="text-gray-500 dark:text-gray-400 text-sm mb-3">2019</p>
+            <div>
+              <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Coursework:</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Econometrics I, Economic Forecasting, Money and Banking, Financial Accounting, International Finance,
+                Public Finance, Statistics I, Statistics II, Mathematical Economics, Operations Research, Economic Growth,
+                Economic Development, Healthcare Economics, Applied Linear Algebra, Transitions to Advanced Mathematics
+              </p>
+            </div>
           </div>
         </div>
       </section>
