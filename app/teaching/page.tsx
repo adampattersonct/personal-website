@@ -42,11 +42,12 @@ export default function TeachingPage() {
             and Federal Reserve communications, to bridge the gap between textbook models and lived
             economic reality. My goal is for students to leave each class equipped not only with
             analytical tools but with the confidence to apply them independently.
-
-            Furthermore, it is my belief that LLMs and Gen AI tools are fundamentally changing in-demand labor market skills.
-            My approach to teaching Data Science and Economics is to equip students with the critical thinking skills necessary to adapt to this rapidly evolving landscape. 
+          </p>
+          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
+            Furthermore, it is my belief that LLMs and Gen AI tools are fundamentally changing in-demand skills for entry level roles.
+            My approach to teaching Data Science and Economics is to equip students with the critical thinking skills necessary to adapt to this rapidly evolving landscape.
             I emphasize the importance of understanding underlying economic principles and data science techniques, while also encouraging students to stay curious and continuously learn new tools and technologies as they emerge.
-            Domain expertise and communication skills will remain essential as Gen AI tools commoditize previous coding skills. These tools should be a powerful complement to their human judgment and creativity, rather than a replacement.
+            Domain expertise and communication skills will become prevalent as Gen AI tools commoditize advanced coding and technical skills. These tools should be a powerful complement to their human judgment and creativity, rather than a replacement.
             It is essential for students to validate each step of their analysis using chain of thought prompting, while critically thinking about the assumptions and limitations of the models and tools they are using.
           </p>
         </div>
