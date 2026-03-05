@@ -64,14 +64,14 @@ export default function AboutPage() {
         <div className="space-y-4">
           <div className="bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 p-5">
             <h3 className="font-semibold text-lg mb-1">Economist Apprentice</h3>
-            <p className="text-blue-600 dark:text-blue-400 text-sm mb-2">Amazon — PXT AMX Applied Science </p>
+            <p className="text-blue-600 dark:text-blue-400 text-sm mb-2">Amazon - PXT AMX Applied Science  </p>
             <p className="text-gray-600 dark:text-gray-400 text-sm">
               Surrogate index models, LLM (chatbot) evaluation, scalable data pipelines on AWS, science models to enhance Amazonian productivity and effectiveness.
             </p>
           </div>
           <div className="bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 p-5">
             <h3 className="font-semibold text-lg mb-1">Research Technician / Graduate Instructor</h3>
-            <p className="text-blue-600 dark:text-blue-400 text-sm mb-2">University of Connecticut</p>
+            <p className="text-blue-600 dark:text-blue-400 text-sm mb-2">University of Connecticut - Department of Economics </p>
             <p className="text-gray-600 dark:text-gray-400 text-sm">
               Evaluate the impacts of policy on Higher Education learning outcomes, applied econometrics research, instructing undergradute students.
             </p>
