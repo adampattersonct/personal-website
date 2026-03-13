@@ -10,6 +10,16 @@ export interface Publication {
 }
 
 export const publications: Publication[] = [
+    {
+    authors: 'Zhao, W., Patterson, A., et al.',
+    year: 2026,
+    title: 'From Metrics to Meaning: Estimating User Feedback Using LLM-Based Evaluation',
+    journal: 'Amazon Science',
+    volume: '',
+    issue: '',
+    pages: '',
+    url: 'https://www.amazon.science/publications/from-metrics-to-meaning-estimating-user-feedback-using-llm-based-evaluation',
+  },
   {
     authors: 'Frydenberg, M., Mentzer, K., Patterson, A.',
     year: 2026,
@@ -29,16 +39,6 @@ export const publications: Publication[] = [
     issue: '2',
     pages: '96-108',
     url: 'https://iacis.org/iis/2025/2_iis_2025_96-108.pdf',
-  },
-  {
-    authors: 'Zhao, W., Patterson, A., et al.',
-    year: 2025,
-    title: 'From Metrics to Meaning: Estimating User Feedback Using LLM-Based Evaluation',
-    journal: 'Amazon Science',
-    volume: '',
-    issue: '',
-    pages: '',
-    url: '',
   },
   {
     authors: 'Patterson, A., Temple, C., Anderson, N., Rogalski, C., Mentzer, K.',
