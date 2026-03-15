@@ -14,11 +14,11 @@ interface ResearchProject {
 
 const researchProjects: ResearchProject[] = [
   {
-    title: "ChatGPT's Impact on Student Digital Literacy",
+    title: "Gen AI's Impact on Student Digital Literacy",
     description:
-      'This study examines how the introduction of ChatGPT has affected student digital literacy outcomes at the undergraduate level, measuring changes in information evaluation, source verification, and critical analysis skills.',
+      'This study examines how the introduction of Gen AI tools has affected student digital literacy outcomes at the undergraduate level, measuring changes in information evaluation, source verification, and critical analysis skills.',
     methodology: 'Interrupted time series analysis',
-    status: 'In progress',
+    status: 'Submitted for publication',
   },
   {
     title: 'Data Center Construction Effects on Local Electricity Markets',
