@@ -46,9 +46,9 @@ export default function AboutPage() {
         <div className="bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 p-6">
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
             {/* PLACEHOLDER — Edit this paragraph to connect your research threads */}
-            My research agenda sits at the nexus of AI systems, causal inference, and infrastructure economics.
+            My research agenda sits at the nexus of Gen AI systems, causal inference, machine learning, and economics.
             At Amazon I develop surrogate models and LLM-based forecasting pipelines on AWS, while at UConn
-            I apply quasi-experimental methods to study how generative AI tools reshape educational outcomes.
+            I apply quasi-experimental methods to study how Gen AI tools reshape educational outcomes.
             A unifying thread across these projects is the question of how rapidly scaling computational
             infrastructure, from data centers to large language models, generates second-order effects on
             local economies, energy markets, and human capital formation. By combining econometric rigor with
@@ -63,10 +63,10 @@ export default function AboutPage() {
         <h2 className="font-merriweather text-2xl font-bold mb-4">Current Positions</h2>
         <div className="space-y-4">
           <div className="bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 p-5">
-            <h3 className="font-semibold text-lg mb-1">Economist Apprentice</h3>
+            <h3 className="font-semibold text-lg mb-1">Data Scientist (Economist Apprentice)</h3>
             <p className="text-blue-600 dark:text-blue-400 text-sm mb-2">Amazon - PXT AMX Applied Science  </p>
             <p className="text-gray-600 dark:text-gray-400 text-sm">
-              Surrogate index models, LLM (chatbot) evaluation, scalable data pipelines on AWS, science models to enhance Amazonian productivity and effectiveness.
+              Surrogate index models, Causal Discovery, Double Machine Learning, LLM (chatbot) evaluation, scalable data pipelines on AWS, science models to enhance Amazonian productivity and effectiveness.
             </p>
           </div>
           <div className="bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 p-5">

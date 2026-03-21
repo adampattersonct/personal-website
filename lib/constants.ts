@@ -10,7 +10,7 @@ export const PROFILE_DATA = {
   tagline: 'Bridging causal inference, machine learning, and policy to understand how emerging technologies reshape economies and institutions.',
   bio: [
     "I operate at the intersection of causal inference and machine learning, engineering end-to-end automated models that turn complex data into actionable policy and business insights.",
-    "As an Economist Apprentice at Amazon and a Research Technician at UConn, I specialize in bridging the gap between academic rigor and industrial scale, developing at pace.",
+    "As a Data Scientist (Economist Apprentice) at Amazon and a Research Technician at UConn, I specialize in bridging the gap between academic rigor and industrial scale, developing at pace.",
     "I leverage Python, SQL, Agents, Gen AI, and AWS to generate solutions for high-stakes problems that require scalable scientific excellence.",
   ].join(" "),
 }
