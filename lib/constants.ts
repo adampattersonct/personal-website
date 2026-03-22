@@ -9,8 +9,8 @@ export const PROFILE_DATA = {
   title: 'Economist and Data Science Engineer',
   tagline: 'Bridging causal machine learning, predictive modeling, and economic research to understand how emerging technologies reshape business and institutions',
   bio: [
-    "I operate at the intersection of causal inference and machine learning, engineering end-to-end automated models that turn complex data into actionable policy and business insights.",
-    "As a Data Scientist (Economist Apprentice) at Amazon and a Research Technician at UConn, I specialize in bridging the gap between academic rigor and industrial scale, developing at pace.",
-    "I leverage Python, SQL, Agents, Gen AI, and AWS to generate solutions for high-stakes problems that require scalable scientific excellence.",
+    "I operate at the intersection of causal machine learning, predictive modeling, and applied econometrics; building production-grade systems that turn complex data into actionable business and policy insights.", 
+    "As a Data Scientist (Economist Apprentice) at Amazon, I develop surrogate index models, causal discovery frameworks, and LLM-based forecasting pipelines on AWS. As a Research Technician at UConn, I apply causal inference to study how generative AI reshapes educational outcomes and human capital formation.", 
+    "My work spans Python, SQL, Gen AI, Agentic AI, and AWS, with a focus on statistical rigor at scale.",
   ].join(" "),
 }
