@@ -6,7 +6,7 @@ export const revalidate = 3600 // Cache for 1 hour
 const metricsData = {
   citations: 51,
   hIndex: 4,
-  i10Index: 4,
+  i10Index: 3,
   lastUpdated: "2026-04-22 12:00:00.000Z"
 }
 
