@@ -7,7 +7,7 @@ export default function AboutSection() {
       <div className="prose prose-lg max-w-none">
         <p className="text-gray-700 dark:text-gray-300 mb-4">{PROFILE_DATA.bio}</p>
         <p className="text-gray-700 dark:text-gray-300">
-          I'm actively pursuing opportunities where rigorous data science and econometrics meets real-world policy impact, whether in industry, research, or doctoral study. Feel free to reach out via email or LinkedIn.
+          I'm actively pursuing opportunities where rigorous data science and econometrics meets real-world policy impact. Feel free to reach out via email or LinkedIn.
         </p>
       </div>
     </section>
