@@ -7,7 +7,7 @@ const metricsData = {
   citations: 58,
   hIndex: 4,
   i10Index: 3,
-  lastUpdated: "2026-06-12 12:00:00.000Z"
+  lastUpdated: "2026-06-13 12:00:00.000Z"
 }
 
 export async function GET() {
