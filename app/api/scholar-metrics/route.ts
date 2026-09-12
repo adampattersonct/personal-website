@@ -4,10 +4,10 @@ export const revalidate = 3600 // Cache for 1 hour
 
 // Static metrics data - update these values manually when they change
 const metricsData = {
-  citations: 69,
+  citations: 71,
   hIndex: 5,
   i10Index: 3,
-  lastUpdated: "2026-08-18 12:00:00.000Z"
+  lastUpdated: "2026-09-11 12:00:00.000Z"
 }
 
 export async function GET() {
